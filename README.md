@@ -19,7 +19,7 @@ Nosso projeto consiste na criação de um site de e-commerce para uma loja virtu
 
 3. **Catálogo do Pelúcias**: Nesta página, os usuários poderão visualizar todas as pelúcias disponíveis na loja.
 
-4. **Contato**: NNesta página, teremos a localização, horario de funcionamento e formulario para contato com a loja. 
+4. **Contato**: Nesta página, teremos a localização, horario de funcionamento e formulario para contato com a loja. 
 
 5. **Login**: Nesta página, teremos o login do usuario.
 
