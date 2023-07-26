@@ -1,0 +1,46 @@
+/*resete*/
+*,*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+
+    .cabeçalho-menu2{
+        max-width: 1366px; 
+        width: 85%;
+        margin: auto;
+        height: 100px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+       } 
+       
+       .logo{
+           font-size: 15px;
+           font-weight: bold;
+           color:black;
+       
+       }
+       
+       .menuzinho1{
+           list-style: none;
+           display: flex;
+           gap: 26px;
+       }
+       
+       .menuzinho2{
+           list-style: none;
+           display: flex;
+           gap: 26px;
+       }
+       .principal-meio{
+        background-color: #A9A9A9;
+        padding:30px;
+       }
+       .desconto{
+       color:#FFFF00;
+       }
+      .btn{
+        color:#FFFF00;
+      }
