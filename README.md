@@ -46,10 +46,6 @@ Esperamos que você goste de explorar nossa loja online! 😃🛒
 
 ## Instruções de Instalação e Execução 🚀
 
-markdown
-
-## Instruções de Instalação e Execução 🚀
-
 1. Clone o repositório para sua máquina local:
 
 ```bash
