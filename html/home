@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon</title>
+</head>
+<body>
+    <header class="cabeçalho">
+     <nav class= "cabeçalho-menu2">
+        <div class="logo"> <h3>Shop</h3> </div>
+        <ul class = "menuzinho1"> 
+            <li> Home </li>
+            <li> Funkopop </li>
+            <li> Pelucia </li>
+         
+        </ul>
+        <div class= "menuzinho2">
+            <div class="menuzinho2-Sales">Contato</div>
+            <div class="menuzinho2-Search">Login</div>
+
+        </div>
+    </nav>
+    </header>
+    <main class="principal">
+        <section class="principal-meio">
+         <p><h3>Nova coleção</h3></p> <br>
+         <p><h1> Encontre seu Pokemon favorito</h1></p><br>
+         <div class= "desconto"><p ><h3>Até 40% de desconto em itens de venda final.</h3></p></div><br> 
+         <p><h1> Pronta entrega</h1></p><br>
+       <button>Nova coleção</button></div>
+          <img class="principal-pokemon " src="./pokemon-gfce7beee8_640.png" alt = "Pikachu ">
+        </section>
+        <section class="principal-imagens">
+            <img class="principal-imagens1 " src="./pokemon-g2c281ba81_640.png" alt = "poke1 ">
+            <img class="principal-imagens2 " src="./pokemon-g685ab0da2_640.png" alt = "poke2 ">
+            <img class="principal-imagens3 " src="./pokemon-g4a1972076_640.png" alt = "poke3 ">
+            <p><strong>Novos produtos</strong></p>
+        </section>
+    </main>
+    <footer> 
+        <section>
+            <div> <h2>Shop</h2></div>
+            <div> Sigas nas nossas redes sociais</div>
+
+        </section>
+    </footer>
+</body>
+</html>
