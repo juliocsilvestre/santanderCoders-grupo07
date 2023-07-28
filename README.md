@@ -35,6 +35,7 @@ Nosso projeto consiste na criação de um site de e-commerce para uma loja virtu
 
 - HTML
 - CSS
+- Bootstrap
 
 - ## Contribuição e Desenvolvimento 🤝
 
