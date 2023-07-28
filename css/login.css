@@ -15,7 +15,7 @@
 	min-height: 100vh;
 }
 .side-image {
-	background-image: url("../assets/pokemart.png");
+	background-image: url("../assets/poke-mart.png");
 	background-position: center;
 	background-size: cover; /* Adicionando esta linha */
 	background-repeat: no-repeat;
@@ -112,7 +112,7 @@ img {
 	transition: 0.4s;
 }
 .submit:hover {
-	background: rgba(37, 95, 156, 0.937);
+	background: rgba(197, 30, 30, 0.937);
 	color: #fff;
 }
 .signin {
