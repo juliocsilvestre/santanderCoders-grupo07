@@ -1,46 +1,271 @@
-/*resete*/
-*,*{
-    margin: 0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:"Poppins",sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Righteous&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Roboto:ital,wght@1,100;1,400;1,500&family=Sarala&display=swap');
 
-    .cabeçalho-menu2{
-        max-width: 1366px; 
-        width: 85%;
-        margin: auto;
-        height: 100px;
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px;
-       } 
-       
-       .logo{
-           font-size: 15px;
-           font-weight: bold;
-           color:black;
-       
-       }
-       
-       .menuzinho1{
-           list-style: none;
-           display: flex;
-           gap: 26px;
-       }
-       
-       .menuzinho2{
-           list-style: none;
-           display: flex;
-           gap: 26px;
-       }
-       .principal-meio{
-        background-color: #A9A9A9;
-        padding:30px;
-       }
-       .desconto{
-       color:#FFFF00;
-       }
-      .btn{
-        color:#FFFF00;
-      }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 7rem;
+    background-color: #fff;
+    box-shadow: 1px 0 4px 3px #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+}
+.logo{
+    font-weight: bold;
+    font-size: 55px;
+    text-decoration: none;
+    color:#444;
+    cursor: pointer;
+}
+
+.logo span{
+    color:#FF0000
+}
+.menu-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30rem;
+    text-decoration: none;
+    font-size: 30px;
+    color:#555;
+    transition:0.5s;
+}
+.menu-nav li:hover{
+    transition:0.5s;
+    background-color:white;
+    color: #FF0000;
+    font-weight: bold;
+    /* text-shadow:  0 1px #FF0000; */
+    cursor:pointer
+
+}
+header .menu-nav li:first-child:{
+    color:#FF0000;
+    text-shadow:  0 1px #FF0000;
+}
+/* main content */
+
+
+main{
+    height: 95vh;
+    margin: auto;
+    background-color: rgb(227, 237, 237);
+    display: flex;
+    justify-content: space-around;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 3rem;
+    margin: auto;
+}
+.left-side h1 ,h2{
+    margin-bottom: 1.5rem;
+}
+.left-side h2{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color:#666;
+}
+.left-side h1{
+    font-size: 4rem;
+    color:black;
+  
+}
+.left-side h1 span{
+    color:#FF0000;
+}
+
+.left-side h3{
+    color:#555;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.left-side .sales{
+    color: #555;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    
+}
+.left-side button{
+    background-color:#FF0000;
+    padding: 1.5rem .9rem;
+    border: 2px solid #fff;
+    border-radius: .7rem;
+    width: 16rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.left-side button:hover{
+    background-color:#c10909;
+    transition: 0.3s;
+    transform: scale(1.01);
+    font-size: 1.25rem;
+    
+}
+.right-side{
+    margin: auto ;
+    height: 76%;
+}
+.right-side img{
+   bottom: 0;
+   height: 80vh;
+   padding-top: 1rem;
+}
+.icons{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 15rem;
+    font-size: 30px;
+}
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 5rem;
+}
+.sec-1-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.sec-1-footer::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    background-color: #77777781;
+    margin: -3rem;
+}
+ .colum-1{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+footer .sec-1-footer .icons-footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer .sec-1-footer .colum-1 i{
+    color: #fff;
+    background-color: #FF0000;
+    border-radius: 100%;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+footer .sec-1-footer .colum-1 i:first-child{
+    padding: 1.2rem 1.5rem;
+    
+}
+footer .sec-1-footer .colum-1 i:hover{
+     background-color: #b80606;
+     transition: 0.5s;
+}
+.logo-footer{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color:#555;
+}
+.logo-footer:first-child{
+    color:#FF0000;
+}
+
+footer .sec-1-footer 
+.colum-2,
+.colum-3,
+.colum-4{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+footer .sec-1-footer 
+.colum-2 h2,
+.colum-3 h2,
+.colum-4 h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 0 1px #333;
+}
+footer .sec-1-footer 
+.colum-2 ul,
+.colum-3 ul,
+.colum-4 ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #777;
+}
+
+
+/* sec-2 */
+.sec-2-footer{
+    margin-top: 5rem;
+    display: flex;
+    padding: 1rem 0;
+}
+.sec-2-footer .left-side a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 55rem;
+}
+.sec-2-footer .left-side span{
+    text-decoration: none;
+    color: #FF0000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.sec-2-footer .left-side span:hover{
+    text-decoration: none;
+    color: #b80606;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.sec-2-footer .right-side i{
+    font-size: 4.5rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: #333;
+    padding-left: .4rem;
+}
+
+ footer .sec-1-footer .colum-1 span {
+    color:#333;
+ }
