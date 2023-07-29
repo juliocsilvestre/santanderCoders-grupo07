@@ -50,7 +50,7 @@ Esperamos que você goste de explorar nossa loja online! 😃🛒
 1. Clone o repositório para sua máquina local:
 
 ```bash
-git clone https://github.com/NOME_DO_GRUPO/loja-online.git
+git clone https://github.com/juliocsilvestre/santanderCoders-grupo07.git
 
 Acesse o diretório do projeto:
 bash
