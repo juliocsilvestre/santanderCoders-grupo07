@@ -1,0 +1,70 @@
+@import url("home.css");
+
+.main-contact {
+	padding: 80px 50px 0;
+	background-color: #fff;
+}
+
+.informations {
+	margin-top: 150px;
+	height: 500px;
+	padding-top: 20px;
+	align-items: center;
+}
+
+.informations section {
+	padding: 20px 20px 20px;
+}
+
+.contact-form {
+	margin-top: 120px;
+	padding: 20px 20px 20px;
+	height: 500px;
+	background-color: red;
+	width: 400px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+	font-size: 30px;
+}
+
+.contact-form h2,
+label {
+	color: #fff;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-family: Arial, sans-serif;
+}
+
+input[type="submit"] {
+	background-color: black;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
