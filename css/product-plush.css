@@ -121,48 +121,6 @@ header nav .right-nav i:hover {
 	color: #ee2761;
 }
 
-/* start hero */
-
-.hero {
-	margin-bottom: 0;
-	width: 100%;
-	height: calc(100vh - 100px);
-	background: url(img/bg-home.jpg);
-	background-size: cover;
-	background-position: right;
-}
-.hero .contnaier {
-	position: relative;
-	height: 100%;
-}
-.hero .content {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translateY(-50%);
-}
-.hero .content p {
-	color: #606060;
-	font-size: 24px;
-	margin-bottom: 10px;
-	text-transform: capitalize;
-}
-.hero .content h1 {
-	color: #111;
-	font-size: 80px;
-	text-transform: capitalize;
-	margin: 20px 0;
-}
-.hero .content h1 span {
-	color: #ee2761;
-}
-.hero .content p.last-p {
-	margin-bottom: 50px;
-}
-.hero .content .btn {
-	font-size: 20px;
-}
-
 /* start products */
 
 .products .items {

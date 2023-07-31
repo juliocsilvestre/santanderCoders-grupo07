@@ -45,7 +45,6 @@ header {
 	background-color: white;
 	color: #ff0000;
 	font-weight: bold;
-	/* text-shadow:  0 1px #FF0000; */
 	cursor: pointer;
 }
 header .menu-nav li:first-child {
@@ -54,7 +53,7 @@ header .menu-nav li:first-child {
 }
 
 a {
-	text-decoration: none; /* Remove sublinhado */
+	text-decoration: none; 
 }
 
 /* Estilo do link ao passar o mouse sobre ele */
